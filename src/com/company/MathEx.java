@@ -2,9 +2,28 @@ package com.company;
 
 public class MathEx {
     public static void main(String[] args) {
-        System.out.println(swap(1723));
-        timeleft(10,21,9,43);
-        System.out.println(dayOfWeek(2,20));
+
+            int input = 123;
+            int output = swap(input);
+            System.out.println(input +" " + output);
+
+            input = 6;
+            output = swap(input);
+            System.out.println(input +" " + output);
+
+            input = 381;
+            output = swap(input);
+            System.out.println(input +" " + output);
+
+            timeleft(1,34, 8, 20);
+            timeleft(1,15, 4, 36);
+
+            System.out.println(dayOfWeek(0,1));
+            System.out.println(dayOfWeek(0,14));
+            System.out.println(dayOfWeek(6, 22));
+            System.out.println(dayOfWeek(5, 4));
+            System.out.println(dayOfWeek(1,24));
+            System.out.println(dayOfWeek(2,1));
     }
 
     public static int swap(int x) {
