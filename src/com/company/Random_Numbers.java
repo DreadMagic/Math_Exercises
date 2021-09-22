@@ -15,5 +15,17 @@ public class Random_Numbers {
         int y = (int)(r+.5); // make r and integer and round it
         System.out.println(y);
     }
-
+// 123 132
+//6 60
+//381 318
+//Your train leaves in 6 hours and 46 minutes.
+//Your train leaves in 3 hours and 21 minutes.
+//0
+//6
+//6
+//1
+//3
+//2
+//
+//Process finished with exit code 0
 }
