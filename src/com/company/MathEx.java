@@ -31,7 +31,7 @@ public class MathEx {
     }
 
     public static int dayOfWeek(int jan1, int date) {
-        int day = (jan1+date)%7;
+        int day = (jan1+date-1)%7;
         return day;
     }
 }
